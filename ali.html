@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>coder ali</title>
+<meta name="discription" content="website to learn codes"/>
+<meta name="keywords" content="learn codes,programming,html"/>
+<link rel="icon" href="img/icon.jpg"/> 
+</head>
+
+
+<head>
+    <title>HTML Task 3</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <style>
+        #contact-form-first-section{
+            background-color: red;
+        }
+        .background-white{
+            color:white;
+        }
+        body{
+            background-color: blue;
+        }
+        ul li{
+            background-color: hotpink;
+        }
+        #unique-green-ul li{
+            background-color: green;
+        }
+        .background-white.border-black{
+​
+        }
+        .background-white, .background-black{
+​
+        }
+        section{
+​
+        }
+    </style>
+</head>
+<body>
+    <form id="contact-form-first-section">
+        <section class="background-white border-black"> <!-- product-->
+            <label for="heading-product">Product</label>
+            <ul class="background-white">
+                <li>
+                    <label for="teddy-bear">Teddy Bear</label>
+                    <input type="number" placeholder="0"> 
+                </li>
+                <li>
+                    <label for="sunflowers">Sunflowers</label>
+                    <input type="number" placeholder="0"> 
+                </li>
+            </ul>
+        </section>
+        <section class="background-black"> <!-- payment-->
+            	<label for="heading-payment">Payment</label>
+                <div> <!-- way of payment-->
+                    <label for="way-of-payment">Way of Payment</label>
+                    <select name="way-of-payment" class="background-white">
+                        <option value="American Express">American Express</option>
+                        <option value="PayPal">PayPal</option>
+                    </select>
+                </div>
+                <div> <!-- receipt-->
+                    <input type="checkbox" name="checkbox-receipt">
+                    <label class="background-white" for="receipt">Please send me the receipt to following email adress:</label>
+                    <input type="email" placeholder="...@...">
+                </div>
+        </section>
+        <section> <!-- adresses-->
+            <label for="heading-shipping">Shipping</label>
+            <div> <!-- shipping adress-->
+                <label for="subheading-shipping-adress">Shipping adress</label>
+                <ul id="unique-green-ul">
+                    <li>
+                        <label for="shipping-name">Name:</label>
+                        <input type="text">
+                    </li>
+                    <li>
+                        <label for="shipping-adress">adress:</label>
+                        <input type="text">
+                    </li>
+                    <li>
+                        <label for="shipping-postal-code">Postal code:</label>
+                        <input type="text">
+                        <label for="shipping-city">City:</label>
+                        <input type="text">
+                    </li>
+                </ul>
+            </div>
+            <div class="background-white"> <!-- payment adress-->
+                <label for="subheading-payment-adress">Payment adress</label>
+                <ul>
+                    <li>
+                        <label for="shipping-name">Name:</label>
+                        <input type="text">
+                    </li>
+                    <li>
+                        <label for="shipping-adress">adress:</label>
+                        <input type="text">
+                    </li>
+                    <li>
+                        <label for="shipping-postal-code">Postal code:</label>
+                        <input type="text">
+                        <label for="shipping-city">City:</label>
+                        <input type="text">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="background-white"> <!-- message-->
+            <label for="heading-message">Your message</label>
+            <br>
+            <label for="text-message">Your message for us:</label>
+            <textarea name="message" cols="30" rows="3" placeholder="Your message" maxlength="256"></textarea>
+        </section>
+        <br>
+        <div> <!-- button-->
+            <input type="submit" value="Order now!">
+        </div>
+        <br>
+    </form>
+</body>
+</html>

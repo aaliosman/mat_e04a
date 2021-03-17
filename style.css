@@ -1,0 +1,19 @@
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 70vh;
+    background-color: lightsalmon;
+            border: 1px solid black;
+            padding: 20px;
+            margin: 20px;
+
+
+}
+.flex-ite-1{
+    flex-grow: 1;
+    background-color: darkgrey;
+    margin: 0 5px;
+}
